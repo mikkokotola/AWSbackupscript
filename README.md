@@ -7,7 +7,7 @@ This simple backup script makes regular backups of the desired directory (includ
 This solution utilises the ASW S3 buckets' configuration for handling versioning and lifecycle control:
  - Retain old versions of an object for 365 days
  - Use Server-Side Encryption (AES-256)
- - Use Intelligent Tiering for both current and previous versions of an object
+ - Use Intelligent Tiering for both current and previous versions of an object (save costs by enabling the backups to move to cheaper tiers as they most likely will not be frequently accessed).
 
 ## Details for AWS course implementation
 *S3 bucket used for backup*: s3://kumpula-mk-backup-bucket/
