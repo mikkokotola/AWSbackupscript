@@ -11,11 +11,11 @@ This solution utilises the ASW S3 buckets' configuration for handling versioning
 
 ## How to use
 - Create an ASW S3 bucket with configuration:
- - Keep all versions of an object is ENABLED
- - Use Server-Side Encryption (AES-256)
- - Permissions for the bucket: only the IAM user account to be used for backup (for AWS educate: only my AWS account)
- - Transition to Intelligent Tiering right away for both current and previous versions of an object
- - Clean up previous versions 365 days after becoming noncurrent version
+  - Keep all versions of an object is ENABLED
+  - Use Server-Side Encryption (AES-256)
+  - Permissions for the bucket: only the IAM user account to be used for backup (for AWS educate: only my AWS account)
+  - Transition to Intelligent Tiering right away for both current and previous versions of an object
+  - Clean up previous versions 365 days after becoming noncurrent version
 
 - Install AWS CLI and set up configuration with the same credentials that have been given write access to the bucket
 
