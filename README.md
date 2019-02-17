@@ -11,7 +11,9 @@ This solution utilises the ASW S3 buckets' configuration for handling versioning
 
 ## Details for AWS course implementation
 *S3 bucket used for backup*: s3://kumpula-mk-backup-bucket/
+
 *Directory to be backed up*: /home/mkotola/AWS/Week4BackupService/WorkDir
+
 *Backup interval*: 7 days (run every Monday at 7.00 a.m.)
 
 ## How to use
